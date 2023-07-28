@@ -12,3 +12,8 @@ export interface SearchGameProps{
     game: string;
     setGame: (game:string) => void; 
 }
+
+
+export interface GameProps{
+    
+}

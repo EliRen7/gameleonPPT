@@ -1,4 +1,4 @@
-import { CustomFilter, Hero, SearchBar } from '@/components'
+import { CustomFilter, GameCard, Hero, SearchBar } from '@/components'
 import Image from 'next/image'
 
 export default function Home() {
@@ -18,6 +18,12 @@ export default function Home() {
 
         </div>
       </div>
+   <section>
+  <div className='home__games-wrappers'>
+  <GameCard />
+  </div>
+  </section>
+
       </div>
     </main>
   )
