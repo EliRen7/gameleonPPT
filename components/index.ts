@@ -6,6 +6,7 @@ import SearchBar from './SearchBar'
 import CustomFilter from './CustomFilter'
 import SearchGame from './SearchGame'
 import GameCard from './GameCard'
+import GameDetails from './GameDetails'
 
 export {
     Hero,
@@ -15,5 +16,6 @@ export {
     SearchBar,
     CustomFilter,
     SearchGame,
-    GameCard
+    GameCard,
+    GameDetails
 }

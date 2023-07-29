@@ -5,6 +5,9 @@ export interface CustomButtonProps{
     containerStyles?: string;
     handleClick?: MouseEventHandler<HTMLButtonElement>;
     btnType?: 'button' | 'submit';
+    textStyles?: string;
+    rightIcon?: string;
+    isDisabled?: boolean;
 }
 
 
@@ -13,7 +16,3 @@ export interface SearchGameProps{
     setGame: (game:string) => void; 
 }
 
-
-export interface GameProps{
-    
-}
