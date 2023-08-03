@@ -4,6 +4,7 @@ import Image from 'next/image'
 import CustomButton from './CustomButton'
 import GameDetails from './GameDetails'
 
+
 const GameCard = () => {
 
 const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ const [isOpen, setIsOpen] = useState(false);
     <h2 className='game-card__content-title'>Grab Game</h2>
 
       </div>
-      <p className='flex mt-6 text-[32px] font-extrabold'>
+      <p className='flex mt-6 text-[32px] leading-[38px] font-extrabold'>
         <span className='self-start text-[14px] font-semibold'>
           A card game to practice key vocab words
         </span>
@@ -77,8 +78,10 @@ const [isOpen, setIsOpen] = useState(false);
           />
           </div>
       </div>
-      <GameDetails />
+      <GameDetails isOpen={isOpen} closeModal={() => 
+      setIsOpen(false)}/>
     </div>
+    
   )
 }
 

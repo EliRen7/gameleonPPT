@@ -10,9 +10,10 @@ export interface CustomButtonProps{
     isDisabled?: boolean;
 }
 
-
 export interface SearchGameProps{
     game: string;
     setGame: (game:string) => void; 
 }
+
+
 

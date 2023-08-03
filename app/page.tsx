@@ -1,7 +1,8 @@
-import { CustomFilter, GameCard, Hero, SearchBar } from '@/components'
+import {GameCard, Hero, SearchBar } from '@/components'
 import Image from 'next/image'
 
 export default function Home() {
+
   return (
     <main className="overflow-hidden">
       <Hero />
@@ -12,18 +13,12 @@ export default function Home() {
       </div>
       <div className='home__filters'>
         <SearchBar />
-        <div className='home__filter-container'>
-          <CustomFilter title="skills"/>
-          <CustomFilter title="grade"/>
-
-        </div>
       </div>
    <section>
-  <div className='home__games-wrappers'>
+  <div className='home__games-wrapper'>
   <GameCard />
   </div>
   </section>
-
       </div>
     </main>
   )

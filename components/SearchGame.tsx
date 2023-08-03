@@ -30,7 +30,7 @@ const SearchGame = ({game, setGame} : SearchGameProps) => {
         </Combobox.Button>
         <Combobox.Input 
           className="search-game__input"
-          placeholder='Connect 4'
+          placeholder='Search Game'
           displayValue={(game: string) =>
           game}
           onChange={(e) => setQuery(e.target.value)}
