@@ -5,7 +5,7 @@ import CustomButton from './CustomButton';
 
 const Hero = () => {
   const handleScroll = () => {
-
+      
   }
   return (
     <div className='hero'>

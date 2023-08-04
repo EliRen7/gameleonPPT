@@ -14,27 +14,6 @@ export const games = [
     "Toy Story Cowboy Showdown",
   ];
   
-  export const cardinfo = [
-    {title: "Grab Game",
-     value: "A card game to practice key vocab words"
-    }
-  ];
-  
-  export const fuels = [
-    {
-      title: "Fuel",
-      value: "",
-    },
-    {
-      title: "Gas",
-      value: "Gas",
-    },
-    {
-      title: "Electricity",
-      value: "Electricity",
-    },
-  ];
-  
   export const footerLinks = [
     {
       title: "About",

@@ -3,13 +3,16 @@ import Image from 'next/image';
 import {Fragment} from 'react'
 import { Dialog, Transition } from '@headlessui/react';
 import CustomButton from './CustomButton'
+import GameCard from './GameCard';
+import { GameCardProps } from '@/types';
 
-interface GameDetailsProps{
+
+interface GameDetailsProps extends GameCardProps{
   isOpen: boolean;
   closeModal: () => void;
 }
 
-const GameDetails = ({isOpen,closeModal}: GameDetailsProps) => {
+const GameDetails = ({isOpen,closeModal,title, imagePath}: GameDetailsProps) => {
   return (
     <>
     <Transition appear show={isOpen} as={Fragment}>
@@ -57,8 +60,8 @@ const GameDetails = ({isOpen,closeModal}: GameDetailsProps) => {
       <div className='flex-1 flex flex-col gap-3'>
     <div className='relative w-full h-40 bg-teal-500 bg-cover bg-center rounded-lg'>
     <Image 
-        src= '/grab-game.png'
-        alt='grab-game'
+        src= {imagePath}
+        alt= {title}
         fill
         priority
         className='object-contain'
@@ -75,7 +78,7 @@ const GameDetails = ({isOpen,closeModal}: GameDetailsProps) => {
     </div>
       </div>
         <div className='flex-1 flex flex-col gap-2'>
-      <h2 className='font-semibold text-xl capitalize'>Grab Game</h2>
+      <h2 className='font-semibold text-xl capitalize'>{title}</h2>
         </div>
         <div className='flex flex-wrap gap-4'>
         <p className='text-justify'>Students play in pairs. Each pair will have a set of cards that relate to the target language or vocabulary. The teacher will say a word or sentence. Students listen carefully and try to grab the correct card before their partner. The student with the most cards at the end wins!</p>

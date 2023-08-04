@@ -15,5 +15,12 @@ export interface SearchGameProps{
     setGame: (game:string) => void; 
 }
 
+export interface GameCardProps{
+    title: string;
+    description: string;
+    imagePath: string;
+    imageSkills: string[];
+    skills: string[];
+}
 
 

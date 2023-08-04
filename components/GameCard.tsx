@@ -3,27 +3,27 @@ import {useState} from 'react'
 import Image from 'next/image'
 import CustomButton from './CustomButton'
 import GameDetails from './GameDetails'
+import { GameCardProps } from '@/types'
 
-
-const GameCard = () => {
+const GameCard = ({title, description, imagePath, imageSkills, skills} : GameCardProps ) => {
 
 const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className='game-card group'>
       <div className='game-card__content'>
-    <h2 className='game-card__content-title'>Grab Game</h2>
+    <h2 className='game-card__content-title'>{title}</h2>
 
       </div>
       <p className='flex mt-6 text-[32px] leading-[38px] font-extrabold'>
         <span className='self-start text-[14px] font-semibold'>
-          A card game to practice key vocab words
+          {description}
         </span>
       </p>
       <div className='relative w-full h-40 my-3 object-contain'>
         <Image 
-        src= '/grab-game.png'
-        alt='grab-game'
+        src= {imagePath}
+        alt= {title}
         fill
         priority
         className='object-contain'
@@ -31,42 +31,19 @@ const [isOpen, setIsOpen] = useState(false);
       </div>
       <div className='relative flex w-full mt-2'>
         <div className='flex group-hover:invisible w-full justify-between text-gray'>
-          <div className='flex flex-col justify-center items-center gap-2'>
+        <div className='flex flex-col justify-center items-center gap-2 '>
+         {imageSkills.map((imageSkills, index) => (
           <Image 
-            src="/listening-icon.svg"
+            src={imageSkills}
             width={20}
             height={20}
-            alt='listening icon'
+            alt={`${title} Image ${index + 1}`}
+            className=''
           />
-          <p className='text-[14px]'>Listening</p>
+          ))}
+          <p className='text-[14px]'>{skills}</p>
           </div>
-          <div className='flex flex-col justify-center items-center gap-2'>
-          <Image 
-            src="/speaking-icon.svg"
-            width={20}
-            height={20}
-            alt='speaking icon'
-          />
-          <p className='text-[14px]'>Speaking</p>
-          </div>
-          <div className='flex flex-col justify-center items-center gap-2'>
-          <Image 
-            src="/reading-icon.svg"
-            width={20}
-            height={20}
-            alt='reading icon'
-          />
-          <p className='text-[14px]'>Reading</p>
-          </div>
-          <div className='flex flex-col justify-center items-center gap-2'>
-          <Image 
-            src="/writing-icon.svg"
-            width={20}
-            height={20}
-            alt='writing icon'
-          />
-          <p className='text-[14px]'>Writing</p>
-          </div>
+       
         </div>
           <div className='game-card__btn-container'>
           <CustomButton 
@@ -78,8 +55,10 @@ const [isOpen, setIsOpen] = useState(false);
           />
           </div>
       </div>
-      <GameDetails isOpen={isOpen} closeModal={() => 
-      setIsOpen(false)}/>
+      <GameDetails 
+        isOpen={isOpen}
+        closeModal={() => setIsOpen(false)}
+        title={title} description={''} imagePath={imagePath} imageSkills={[]} skills={[]}      />
     </div>
     
   )
