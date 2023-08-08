@@ -10,7 +10,7 @@ string}) => (
   <button 
   type='submit' 
   className={`-ml-3 z-10  ${otherClasses}`}>
-    I<Image 
+    <Image 
       src="/magnifying-glass.svg"
       alt="magnifying glass"
       width={40}

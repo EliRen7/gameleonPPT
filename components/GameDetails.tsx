@@ -5,6 +5,7 @@ import { Dialog, Transition } from '@headlessui/react';
 import CustomButton from './CustomButton'
 import GameCard from './GameCard';
 import { GameCardProps } from '@/types';
+import Link from 'next/link';
 
 
 interface GameDetailsProps extends GameCardProps{
@@ -12,7 +13,7 @@ interface GameDetailsProps extends GameCardProps{
   closeModal: () => void;
 }
 
-const GameDetails = ({isOpen,closeModal,title, imagePath}: GameDetailsProps) => {
+const GameDetails = ({isOpen,closeModal,title, imagePath, modal, link}: GameDetailsProps) => {
   return (
     <>
     <Transition appear show={isOpen} as={Fragment}>
@@ -69,11 +70,12 @@ const GameDetails = ({isOpen,closeModal,title, imagePath}: GameDetailsProps) => 
     </div>
     <div className='flex gap-3'>
       <div className='flex-1 relative w-full h-24 rounded-lg'>
-      <CustomButton 
+      <CustomButton  
+            link={link}
             title='Download'
             containerStyles='w-full py-[16px] rounded-full bg-blue-800'
             textStyles="text-white text-[14px] leading-[17px] font-bold"
-          />
+          />  
       </div>
     </div>
       </div>
@@ -81,7 +83,7 @@ const GameDetails = ({isOpen,closeModal,title, imagePath}: GameDetailsProps) => 
       <h2 className='font-semibold text-xl capitalize'>{title}</h2>
         </div>
         <div className='flex flex-wrap gap-4'>
-        <p className='text-justify'>Students play in pairs. Each pair will have a set of cards that relate to the target language or vocabulary. The teacher will say a word or sentence. Students listen carefully and try to grab the correct card before their partner. The student with the most cards at the end wins!</p>
+        <p className='text-justify'>{modal}</p>
         </div>
         </Dialog.Panel>
       </Transition.Child>

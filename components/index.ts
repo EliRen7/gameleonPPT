@@ -15,5 +15,5 @@ export {
     SearchBar,
     SearchGame,
     GameCard,
-    GameDetails
+    GameDetails 
 }

@@ -8,6 +8,7 @@ export interface CustomButtonProps{
     textStyles?: string;
     rightIcon?: string;
     isDisabled?: boolean;
+    link?: string;
 }
 
 export interface SearchGameProps{
@@ -21,6 +22,8 @@ export interface GameCardProps{
     imagePath: string;
     imageSkills: string[];
     skills: string[];
+    modal: string;
+    link?: string;
 }
 
 

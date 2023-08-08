@@ -15,18 +15,18 @@ const Hero = () => {
             PowerPoint game templates for foreign language educators
             </h1>
             <p className='hero__subtitle'>
-                Download an editable game template with ease!
+                Download an editable game template for your next lesson plan today!
             </p>
             <CustomButton
               title="Explore Games"
               containerStyles="bg-yellow-400
               text-white rounded-full mt-10"
-              handleClick={handleScroll} 
+              handleClick={handleScroll}  
               />
         </div>
         <div className='hero__image-container'>
           <div className='hero__image'>
-            <Image src="/origamitree.png" alt='chameleon' fill className='object-contain ml-0 md:ml-40' />
+            <Image src="/hero-image.png" alt='chameleon' fill className='object-contain' />
           </div>
         </div>
     </div> 
@@ -34,3 +34,7 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+
+// ml-0 md:ml-40

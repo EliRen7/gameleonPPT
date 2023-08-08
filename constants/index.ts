@@ -21,16 +21,16 @@ export const games = [
         { title: "How it works", url: "/" },
         { title: "Featured", url: "/" },
         { title: "Partnership", url: "/" },
-        { title: "Bussiness Relation", url: "/" },
+        { title: "Creater", url: "/" },
       ],
     },
     {
       title: "Teacher Resources",
       links: [
-        { title: "Events", url: "/" },
-        { title: "Blog", url: "/" },
-        { title: "Podcast", url: "/" },
-        { title: "Invite a friend", url: "/" },
+        { title: "Teachers Pay Teachers", url: "/" },
+        { title: "SlidesMania", url: "/" },
+        { title: "Korshare", url: "/" },
+        { title: "Waygook", url: "/" },
       ],
     },
     {

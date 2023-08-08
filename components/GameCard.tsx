@@ -5,7 +5,7 @@ import CustomButton from './CustomButton'
 import GameDetails from './GameDetails'
 import { GameCardProps } from '@/types'
 
-const GameCard = ({title, description, imagePath, imageSkills, skills} : GameCardProps ) => {
+const GameCard = ({title, description, imagePath, imageSkills, skills, modal, link} : GameCardProps ) => {
 
 const [isOpen, setIsOpen] = useState(false);
 
@@ -58,7 +58,7 @@ const [isOpen, setIsOpen] = useState(false);
       <GameDetails 
         isOpen={isOpen}
         closeModal={() => setIsOpen(false)}
-        title={title} description={''} imagePath={imagePath} imageSkills={[]} skills={[]}      />
+        title={title} description={''} imagePath={imagePath} imageSkills={[]} skills={[]} modal={modal} link={link}    />
     </div>
     
   )
