@@ -1,4 +1,4 @@
-import {GameCard, Hero, SearchBar, GameDetails } from '@/components'
+import {GameCard, Hero, SearchBar, About} from '@/components'
 
 export default function Home() {
 
@@ -140,6 +140,8 @@ export default function Home() {
   </div> 
   </section>
       </div>
+
+    <About />
     </main>
   )
 }

@@ -32,8 +32,6 @@ const handleSearch = (e: React.
     }
     updateSearchParams(game.toLowerCase())
   };
-
-
   const updateSearchParams = (game: string) => {
     const searchParams = new URLSearchParams(window.location.search);
 
@@ -46,9 +44,6 @@ const handleSearch = (e: React.
 
     router.push(newPathname)
   }
-
-
-
   return (
     <form className='searchbar' onSubmit={handleSearch}>
      <div className="searchbar__item">

@@ -6,6 +6,7 @@ import SearchBar from './SearchBar'
 import SearchGame from './SearchGame'
 import GameCard from './GameCard'
 import GameDetails from './GameDetails'
+import About from './About'
 
 export {
     Hero,
@@ -15,5 +16,6 @@ export {
     SearchBar,
     SearchGame,
     GameCard,
-    GameDetails 
+    GameDetails, 
+    About
 }
