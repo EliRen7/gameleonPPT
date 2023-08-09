@@ -1,11 +1,15 @@
 'use client';
 import Image from 'next/image';
 import CustomButton from './CustomButton';
+import GameCard from './GameCard'
 
 
 const Hero = () => {
   const handleScroll = () => {
-      
+    const gameCardSection = document.getElementById('game-card-section');
+    if (gameCardSection) {
+      gameCardSection.scrollIntoView({ behavior: 'smooth' });
+    }   
   }
   return (
     <div className='hero'>
@@ -17,11 +21,12 @@ const Hero = () => {
             <p className='hero__subtitle'>
                 Download an editable game template for your next lesson plan today!
             </p>
-            <CustomButton
+            <CustomButton 
               title="Explore Games"
               containerStyles="bg-yellow-400
               text-white rounded-full mt-10"
               handleClick={handleScroll}  
+              link="" 
               />
         </div>
         <div className='hero__image-container'>
@@ -36,5 +41,3 @@ const Hero = () => {
 export default Hero
 
 
-
-// ml-0 md:ml-40

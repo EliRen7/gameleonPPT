@@ -4,13 +4,14 @@ import Image from 'next/image'
 import CustomButton from './CustomButton'
 import GameDetails from './GameDetails'
 import { GameCardProps } from '@/types'
+import GameDetailsProps from  './GameDetails'
 
-const GameCard = ({title, description, imagePath, imageSkills, skills, modal, link} : GameCardProps ) => {
+const GameCard = ({title, description, imagePath, imageSkills, skills, modal, link} : GameCardProps) => {
 
 const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='game-card group'>
+    <div className='game-card group' id="game-card-section">
       <div className='game-card__content'>
     <h2 className='game-card__content-title'>{title}</h2>
 
@@ -52,13 +53,14 @@ const [isOpen, setIsOpen] = useState(false);
             textStyles="text-white text-[14px] leading-[17px] font-bold"
             rightIcon="/right-arrow.svg"
             handleClick={() => setIsOpen(true)}
+            link=''
           />
           </div>
       </div>
       <GameDetails 
         isOpen={isOpen}
         closeModal={() => setIsOpen(false)}
-        title={title} description={''} imagePath={imagePath} imageSkills={[]} skills={[]} modal={modal} link={link}    />
+        title={title} description={''} imagePath={imagePath} imageSkills={[]} skills={[]} modal={modal} link={link}/>
     </div>
     
   )

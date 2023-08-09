@@ -5,12 +5,12 @@ import { Dialog, Transition } from '@headlessui/react';
 import CustomButton from './CustomButton'
 import GameCard from './GameCard';
 import { GameCardProps } from '@/types';
-import Link from 'next/link';
 
 
 interface GameDetailsProps extends GameCardProps{
   isOpen: boolean;
   closeModal: () => void;
+  link:string;
 }
 
 const GameDetails = ({isOpen,closeModal,title, imagePath, modal, link}: GameDetailsProps) => {
@@ -71,11 +71,11 @@ const GameDetails = ({isOpen,closeModal,title, imagePath, modal, link}: GameDeta
     <div className='flex gap-3'>
       <div className='flex-1 relative w-full h-24 rounded-lg'>
       <CustomButton  
-            link={link}
             title='Download'
             containerStyles='w-full py-[16px] rounded-full bg-blue-800'
-            textStyles="text-white text-[14px] leading-[17px] font-bold"
-          />  
+            textStyles="text-white text-[14px] leading-[17px] font-bold ml-40"
+            link={link}
+          /> 
       </div>
     </div>
       </div>

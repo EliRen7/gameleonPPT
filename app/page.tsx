@@ -1,4 +1,4 @@
-import {GameCard, Hero, SearchBar } from '@/components'
+import {GameCard, Hero, SearchBar, GameDetails } from '@/components'
 
 export default function Home() {
 
@@ -17,7 +17,7 @@ export default function Home() {
       imageSkills: ['/listening-icon.svg'],
       skills: ['listening'],
       modal: 'Play this game individually. Each student gets a game sheet. After the laser sound, the teacher will speak. Remember the order the teacher spoke and when the song begins, students write the code. Students who finish on time and write the correct code get a point.',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Tx6CtN7zcp3fnn?e=F5Ozgh'
     },
     {
       title: 'Cowboy Showdown',
@@ -26,7 +26,7 @@ export default function Home() {
       imageSkills: ['/speaking-icon.svg', '/reading-icon.svg'],
       skills: ['speaking', 'reading'],
       modal: 'Divide your class into teams. Each round, one student from each team stands up and faces away from the screen. When the teacher says, "Showdown!" they turn around and look at the screen. The first student to read the word or sentence gets a point for the team.',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1p66gbgCViwIDsD?e=OMOpy6'
     },
     {
       title: 'Inside Out',
@@ -35,7 +35,7 @@ export default function Home() {
       imageSkills: ['/reading-icon.svg'],
       skills: ['reading'],
       modal: 'Play the game in teams or individually. Students will have to find the matching character under the squares by saying the key word/expression to reveal it. The point chart is included in the template. Team/Students with the most points at the end of the game win!', 
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1BstnWpR5rGr5j4?e=6vjD9z'
     },
     {
       title: 'Vocab in Songs',
@@ -44,7 +44,7 @@ export default function Home() {
       imageSkills: ['/listening-icon.svg'],
       skills: ['listening'],
       modal: 'Play the game individually or as a team. Students listen to a song and try to hear the vocabulary word that completes the verse. Teacher will then reveal the answer. Correct student or team gets a point.',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1NZDRL9JeA7u0_z?e=Bq3QaL'
     },
     {
       title: 'Letter Drops',
@@ -53,7 +53,7 @@ export default function Home() {
       imageSkills: ['/writing-icon.svg'],
       skills: ['writing'],
       modal: 'Play this game individually. The students will watch carefully as letters fall from the sky. Each student will have to unscramble the word and write it down in their notebook before the letters disappear from the screen. Students with the correct spelling get a point.',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj0-TgiN0T4mBbpVI?e=tvh7Vq'
     },
     {
       title: 'Among Us',
@@ -62,7 +62,7 @@ export default function Home() {
       imageSkills: ['/speaking-icon.svg'],
       skills: ['speaking'],
       modal: 'Split the class into 2 teams. One student from each team will ask the key question and the other student will answer (switch roles next round). They will play rock, paper, scissors and the winner gets the corresponding points for their team. Team with the most points wins!',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj0q6gDvq4Sej436Z?e=hXMBfa'
     },
     {
       title: 'Frozen Phone Talk',
@@ -71,7 +71,7 @@ export default function Home() {
       imageSkills: ['/speaking-icon.svg'],
       skills: ['speaking'],
       modal: 'Divide the class into 5 teams. Team A will choose a number to dial on their Frozen team phone. Team A will call another team. Both teams will say their dialogue. Team A then chooses box 1 or 2 to take them to the points slide. Team B will then go next and so on.',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1eIkSH74Pbrp1Gr?e=pcmWWg'
     },
 
     {
@@ -81,7 +81,7 @@ export default function Home() {
       imageSkills: ['/reading-icon.svg'],
       skills: ['reading'],
       modal: 'Split the class into 2 teams. One student from each team will ask the key question and the other student will answer (switch roles next round). They will play rock, paper, scissors and the winner gets the corresponding points for their team. Team with the most points wins!',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj03oq-5b8h6OLFDc?e=hpQXJS'
     },
     {
       title: 'Battle Ninjas',
@@ -90,7 +90,7 @@ export default function Home() {
       imageSkills: ['/listening-icon.svg'],
       skills: ['listening'],
       modal: 'Students play individually. Each student gets a bingo sheet and they draw 12 ninjas in any square on their sheet. The teacher will say two senteces. Student listen carefully and cross out the squares that the teacher says. The student with the most ninjas wins!',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj0tUMMwo50yoHHgo?e=tAzlz8'
     },
     {
       title: 'Donkey-Kong',
@@ -99,7 +99,7 @@ export default function Home() {
       imageSkills: ['/speaking-icon.svg'],
       skills: ['speaking'],
       modal: 'Game is played individually. Each student chooses a word or phrase that makes a complete sentence. Points depend on whether the student chose the path that creates a grammatically correct sentence. *writing sheet not included*',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'  
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1x56wPvDHpnxAu0?e=iITh4k'  
     },
     {
       title: 'MineCraft-Maze',
@@ -108,7 +108,7 @@ export default function Home() {
       imageSkills: ['/listening-icon.svg'],
       skills: ['listening'],
       modal: 'Split the class into 2 teams. First team chooses a path by reading a sentence/image. If the path is right, the team advances to the next stage. If it is wrong, the other team goes. At the end of each round, there is treasure. Team with the most points wins!',
-      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1Ki8K8tFd7nb4CC?e=zBWhcp'
+      link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1EkgrIoIhPiYwsI?e=nXC5dW'
     },  
   ]
 

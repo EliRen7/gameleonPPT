@@ -3,12 +3,12 @@ import { MouseEventHandler } from "react";
 export interface CustomButtonProps{
     title: string;
     containerStyles?: string;
-    handleClick?: MouseEventHandler<HTMLButtonElement>;
+    handleClick?: MouseEventHandler<HTMLButtonElement | HTMLAnchorElement>;
     btnType?: 'button' | 'submit';
     textStyles?: string;
     rightIcon?: string;
     isDisabled?: boolean;
-    link?: string;
+    link: string;
 }
 
 export interface SearchGameProps{
@@ -23,7 +23,7 @@ export interface GameCardProps{
     imageSkills: string[];
     skills: string[];
     modal: string;
-    link?: string;
+    link: string;
 }
 
 

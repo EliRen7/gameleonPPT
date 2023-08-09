@@ -2,7 +2,6 @@ export const games = [
     "Among Us",
     "Battle Ninja",
     "Brawl Stars",
-    "Clash Royale",
     "Cloudy with a Chance of Letter Drops",
     "Donkey Kong Slammin' Sentences",
     "Frozen Phone Talk",
