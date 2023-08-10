@@ -72,7 +72,7 @@ const GameDetails = ({isOpen,closeModal,title, imagePath, modal, link}: GameDeta
       <div className='flex-1 relative w-full h-24 rounded-lg'>
       <CustomButton  
             title='Download'
-            containerStyles='w-full py-[16px] rounded-full bg-blue-800'
+            containerStyles='w-full py-[16px] rounded-full bg-blue-400'
             textStyles="text-white text-[14px] leading-[17px] font-bold ml-40"
             link={link}
           /> 

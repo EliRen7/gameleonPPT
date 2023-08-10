@@ -19,7 +19,7 @@ const Hero = () => {
             PowerPoint game templates for foreign language educators
             </h1>
             <p className='hero__subtitle'>
-                Download an editable game template for your next lesson plan today!
+                Download an editable game template for your next lesson plan today! 
             </p>
             <CustomButton 
               title="Explore Games"
@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
         <div className='hero__image-container'>
           <div className='hero__image'>
-            <Image src="/hero-image.png" alt='chameleon' fill className='object-contain' />
+            <Image src="/hero-image.png" alt='chameleon' fill className='object-contain mt-10' />
           </div>
         </div>
     </div> 

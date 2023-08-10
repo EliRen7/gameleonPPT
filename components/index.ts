@@ -2,20 +2,20 @@ import Hero from './Hero'
 import CustomButton from './CustomButton'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import SearchBar from './SearchBar'
-import SearchGame from './SearchGame'
 import GameCard from './GameCard'
 import GameDetails from './GameDetails'
 import About from './About'
+import Resources from './Resources'
+import Contact from './Contact'
 
 export {
     Hero,
     CustomButton,
     Navbar,
     Footer,
-    SearchBar,
-    SearchGame,
     GameCard,
     GameDetails, 
-    About
+    About,
+    Resources,
+    Contact
 }

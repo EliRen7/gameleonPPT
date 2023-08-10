@@ -1,4 +1,4 @@
-import {GameCard, Hero, SearchBar, About} from '@/components'
+import {GameCard, Hero, About, Resources, Contact} from '@/components'
 
 export default function Home() {
 
@@ -121,7 +121,6 @@ export default function Home() {
       <p>Explore the games catalog with ease</p>
       </div>
       <div className='home__filters'>
-        <SearchBar />
       </div>
    <section>
   <div className='home__games-wrapper'>
@@ -142,6 +141,8 @@ export default function Home() {
       </div>
 
     <About />
+    <Resources />
+    <Contact />
     </main>
   )
 }

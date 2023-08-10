@@ -17,10 +17,7 @@ export const games = [
     {
       title: "About",
       links: [
-        { title: "How it works", url: "/" },
-        { title: "Featured", url: "/" },
-        { title: "Partnership", url: "/" },
-        { title: "Creater", url: "/" },
+        { title: "Gameleon", url: "#about" },
       ],
     },
     {
@@ -33,7 +30,7 @@ export const games = [
       ],
     },
     {
-      title: "Contact",
+      title: "Socials",
       links: [
         { title: "Discord", url: "/" },
         { title: "Instagram", url: "/" },
