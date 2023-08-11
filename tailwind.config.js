@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        teacher:["Chelsea Market", "cursive"]
       },
       colors: {
         "black-100": "#2B2C35",
