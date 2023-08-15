@@ -23,8 +23,8 @@ export default function Home() {
       title: 'Cowboy Showdown',
       description: 'A exhilarating showdown game',
       imagePath: '/images/toy-story.png',
-      imageSkills: ['/speaking-icon.svg', '/reading-icon.svg'],
-      skills: ['speaking', 'reading'],
+      imageSkills: ['/speaking-icon.svg'],
+      skills: ['speaking'],
       modal: 'Divide your class into teams. Each round, one student from each team stands up and faces away from the screen. When the teacher says, "Showdown!" they turn around and look at the screen. The first student to read the word or sentence gets a point for the team.',
       link: 'https://1drv.ms/p/s!AugZo2FEMtwQj1p66gbgCViwIDsD?e=OMOpy6'
     },
@@ -138,8 +138,7 @@ export default function Home() {
   ))}
   </div> 
   </section>
-      </div>
-
+    </div>
     <About />
     <Resources />
     <Contact />

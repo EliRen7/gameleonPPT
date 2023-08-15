@@ -23,10 +23,10 @@ export const games = [
     {
       title: "Teacher Resources",
       links: [
-        { title: "Teachers Pay Teachers", url: "/" },
-        { title: "SlidesMania", url: "/" },
-        { title: "Korshare", url: "/" },
-        { title: "Waygook", url: "/" },
+        { title: "Teachers Pay Teachers", url: "#teacher-resources" },
+        { title: "SlidesMania", url: "#teacher-resources" },
+        { title: "Korshare", url: "#teacher-resources" },
+        { title: "Waygook", url: "#teacher-resources" },
       ],
     },
     {

@@ -4,8 +4,8 @@ import CustomButton from './CustomButton'
 
 const Navbar = () => {
   return (
-    <header className='w-full absolute z-10'>
-      <nav className='max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4'>
+    <header className='w-full absolute z-10 '>
+      <nav className='max-w-[1440px] mx-auto gap-2 md:gap-0 flex justify-between items-center sm:px-16 px-6 py-4'>
         <a href='#about' className='smooth'>About</a>
         <a href='#contact' className='smooth'>Contact</a>
         <a href='#game-card-section' className='smooth'>Games</a>

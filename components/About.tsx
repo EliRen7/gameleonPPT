@@ -9,7 +9,7 @@ const About = () => {
         src="/origamitree.png"  
         alt="origami tree"
         fill
-        className='object-contain object-left p-20'
+        className='object-contain object-left p-20 invisible md:visible'
     />
     </figure>
   <div className="card-body md:ml-[32rem] md:mr-5">

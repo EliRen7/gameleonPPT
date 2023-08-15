@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import CustomButton from './CustomButton';
-import GameCard from './GameCard'
+
 
 
 const Hero = () => {
