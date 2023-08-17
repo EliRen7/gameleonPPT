@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className='flex-1 pt-36 padding-x'>
-            <h1 className='hero__title xl:text-[58px]'>
+            <h1 className='hero__title '>
             Gameleon provides fun, fast, and free
             PowerPoint game templates for foreign language educators
             </h1>
