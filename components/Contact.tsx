@@ -34,7 +34,7 @@ const Contact = () => {
 </section>
 <div className='hero__image-container'>
           <div className='hero__image'>
-            <Image src="/mail3.png" alt='mail' width={300} height={300} className='md:pt-48 md:ml-32 ml-10 ' />
+            <Image src="/mail3.png" alt='mail' width={300} height={300} className='md:pt-48 md:ml-32 ml-10 xl:pt-96 xl:ml-28 ' />
           </div>
         </div>
 </div>

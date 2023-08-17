@@ -16,7 +16,7 @@ const Resources = () => {
     alt='computer'
     /> 
   <div className="overflow-x-auto flex">
-  <table className="table md:w-[51rem] md:ml-[14rem] md:text-lg bg-yellow-400 text-base-100">
+  <table className="table md:w-[51rem] md:ml-[14rem] md:text-lg bg-yellow-400 text-base-100 xl:ml-[26rem]">
     <thead>
       <tr className='md:text-lg'>
         <th>Name</th>
