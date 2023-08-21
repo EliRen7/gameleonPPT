@@ -75,6 +75,7 @@ const GameDetails = ({isOpen,closeModal,title, imagePath, modal, link}: GameDeta
             containerStyles='w-full py-[16px] rounded-full bg-blue-400'
             textStyles="text-white text-[14px] leading-[17px] font-bold md:ml-40 ml-20"
             link={link}
+            type=""
           /> 
       </div>
     </div>

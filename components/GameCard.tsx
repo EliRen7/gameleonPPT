@@ -54,6 +54,7 @@ const [isOpen, setIsOpen] = useState(false);
             rightIcon="/right-arrow.svg"
             handleClick={() => setIsOpen(true)}
             link=''
+            type=''
           />
           </div>
       </div>

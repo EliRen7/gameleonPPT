@@ -27,6 +27,7 @@ const Hero = () => {
               text-white rounded-full mt-10"
               handleClick={handleScroll}  
               link="" 
+              type=''
               />
         </div>
         <div className='hero__image-container'>

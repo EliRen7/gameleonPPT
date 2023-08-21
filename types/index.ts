@@ -9,6 +9,7 @@ export interface CustomButtonProps{
     rightIcon?: string;
     isDisabled?: boolean;
     link: string;
+    type:string;
 }
 
 export interface SearchGameProps{
