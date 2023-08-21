@@ -16,7 +16,6 @@ const Footer = () => {
           />
         <p className="text-base text-gray-700">
           Gameleon 2023 <br />
-          All rights reserved &copy;
         </p>
         </div>
         <div className="footer__links">
@@ -30,7 +29,7 @@ const Footer = () => {
               className="text-gray-500"
               >
               {item.title}
-            </Link>
+            </Link> 
             ))}
           </div>
           ))}

@@ -29,13 +29,4 @@ export const games = [
         { title: "Waygook", url: "#teacher-resources" },
       ],
     },
-    {
-      title: "Socials",
-      links: [
-        { title: "Discord", url: "/" },
-        { title: "Instagram", url: "/" },
-        { title: "Twitter", url: "/" },
-        { title: "Facebook", url: "/" },
-      ],
-    },
   ];
