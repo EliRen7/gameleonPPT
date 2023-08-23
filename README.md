@@ -1,6 +1,6 @@
 # Gameleon - Free PowerPoint Game Templates for ESL Teachers
 
-![Gameleon Banner](/public/images/gameleon.png)
+![Gameleon Banner](/public/images/Gameleon.png)
 
 Welcome to Gameleon, a platform dedicated to providing foreign language educators (ESL teachers) all over the world with free and editable PowerPoint game templates to enhance their classroom lessons. Developed by a dedicated educator who has personally utilized these games in South Korea to get elementary school kids excited about learning English key expressions and words.
 
