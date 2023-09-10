@@ -6,7 +6,7 @@ import CustomButton from './CustomButton'
 
 function Contact() {
   return (
-<div className='hero md:pt-20' id='contact'>
+<div className='hero' id='contact'>
 <section className="bg-white dark:bg-gray-900 md:ml-20">
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Let's Talk!</h2>

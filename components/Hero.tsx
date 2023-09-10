@@ -3,7 +3,6 @@ import Image from 'next/image';
 import CustomButton from './CustomButton';
 
 
-
 const Hero = () => {
   const handleScroll = () => {
     const gameCardSection = document.getElementById('game-card-section');
