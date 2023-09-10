@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import CustomButton from './CustomButton'
+
 
 const Navbar = () => {
   return (
@@ -9,7 +9,6 @@ const Navbar = () => {
         <a href='#about' className='smooth'>About</a>
         <a href='#contact' className='smooth'>Contact</a>
         <a href='#game-card-section' className='smooth'>Games</a>
-        <a href='#teacher-resources' className='smooth'>Teacher Resources</a>
       <Link href='/' className='flex justify-center items-center'> 
         <Image 
         src='/chameleon.png'

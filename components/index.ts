@@ -5,7 +5,6 @@ import Footer from './Footer'
 import GameCard from './GameCard'
 import GameDetails from './GameDetails'
 import About from './About'
-import Resources from './Resources'
 import Contact from './Contact'
 
 export {
@@ -16,6 +15,5 @@ export {
     GameCard,
     GameDetails, 
     About,
-    Resources,
     Contact
 }
