@@ -49,4 +49,3 @@ For inquiries, suggestions, or collaborations, please contact [Elizabeth](mailto
 
 ---
 
-Developed with ❤️ by [Elizabeth Renderos](https://gameleon-aebq6dxr5-eliren7.vercel.app/)
