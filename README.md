@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gameleon - Free PowerPoint Game Templates for ESL Teachers
+
+![Gameleon Banner](/public/images/Gameleon.png)
+
+Welcome to Gameleon, a platform dedicated to providing foreign language educators (ESL teachers) all over the world with free and editable PowerPoint game templates to enhance their classroom lessons. Developed by a dedicated educator who has personally utilized these games in South Korea to get elementary school kids excited about learning English key expressions and words.
+
+## About Gameleon
+
+Gameleon was created with the mission to offer fun, fast, and free PowerPoint game templates for foreign language educators. These game templates are designed to encourage student interactive participation while providing immersive game features. The ultimate goal is to help students develop a positive attitude towards attending classes and make learning a new language a more engaging and enjoyable experience.
+
+## Features
+
+- Easily editable PowerPoint game templates
+- Designed for ESL teachers and educators
+- Encourages student interaction and participation
+- Character-themed games for immersive experiences
+- Games catered to various language skills (listening, speaking, reading, writing)
+- Helps educators incorporate new ideas into lesson planning
+- Motivates students to continue learning outside the classroom
+
+## Why Gameleon?
+
+As an ESL teacher who has experienced the challenges of engaging young students in language learning, Gameleon was born out of a desire to provide fellow educators with effective tools. The founder's personal experience teaching in South Korea inspired the creation of these resources. With the right tools and guidance, learning a new language can be both fun and simple.
 
 ## Getting Started
 
-First, run the development server:
+To explore the available game templates and start incorporating them into your classroom, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Visit [Gameleon](https://gameleon-aebq6dxr5-eliren7.vercel.app/)
+2. Browse through the collection of game templates
+3. Download the templates that fit your lesson plans
+4. Customize the templates as needed for your classroom
+5. Engage your students with interactive and exciting games!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Gameleon is an open-source project, and contributions are welcome! If you have ideas, improvements, or additional game templates to share, please submit a pull request. Let's collaborate to make language learning more enjoyable for students worldwide.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Disclaimer
 
-## Learn More
+- All game templates provided by Gameleon are for educational, non-commercial purposes only.
+- They are unofficial and designed for personal use within the classroom.
+- Please respect copyright and licensing restrictions when using the resources.
+- The resources are meant to enhance language learning and classroom engagement
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For inquiries, suggestions, or collaborations, please contact [Elizabeth](mailto:liz_774@yahoo.com).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Developed with ❤️ by [Elizabeth Renderos](https://gameleon-aebq6dxr5-eliren7.vercel.app/)
