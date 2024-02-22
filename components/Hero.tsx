@@ -5,7 +5,7 @@ import CustomButton from './CustomButton';
 
 const Hero = () => {
   const handleScroll = () => {
-    const gameCardSection = document.getElementById('game-card-section');
+    const gameCardSection= document.getElementById('game-card-section');
     if (gameCardSection) {
       gameCardSection.scrollIntoView({ behavior: 'smooth' });
     }   
@@ -18,7 +18,7 @@ const Hero = () => {
             PowerPoint game templates for foreign language educators
             </h1>
             <p className='hero__subtitle'>
-                Download an editable game template for your next lesson plan today! 
+            Download a free editable game template for your next lesson plan! 
             </p>
             <CustomButton 
               title="Explore Games"
